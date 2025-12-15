@@ -42,3 +42,14 @@
     cursor: pointer;
     transition: 0.3s;
 }
+
+/*CSS for manual navigation behavior*/
+#slide1:checked ~ .first {
+    margin-left: 0;
+}
+#slide2:checked ~ .first {
+    margin-left: -20%;
+}
+#slide3:checked ~ .first {
+    margin-left: -40%;
+}
