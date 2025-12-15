@@ -25,3 +25,13 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+/*Manual Navigation*/
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
