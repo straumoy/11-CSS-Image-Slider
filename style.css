@@ -1,1 +1,9 @@
 /* style.css file */
+.slider {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: auto;
+}
