@@ -1,37 +1,39 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Image Slider</title>
 </head>
 
 <body>
-<div class="slider">
-    <div class="slides">
-        <!--Radio buttons-->
-        <input type="radio" name="radio-btn" id="slide1" checked>
-        <input type="radio" name="radio-btn" id="slide2">
-        <input type="radio" name="radio-btn" id="slide3">
-        </div>
+    <div class="slider">
+        <div class="slides">
+            <!--Radio Buttons-->
+            <input type="radio" name="radio-btn" id="slide1" checked>
+            <input type="radio" name="radio-btn" id="slide2">
+            <input type="radio" name="radio-btn" id="slide3">
 
-        <!--Slide Images-->
-        <div class="slide first">
-            <img src="/images/pexels-blitzboy-1144176.jpg" alt="Aerial Photography of Water Beside Forest during Golden Hour">
-        </div>
-        <div class="slide">
-            <img src="/images/pexels-bri-schneiter-28802-346529.jpg" alt="Calm Body of Lake Between Mountains">
-        </div>
-        <div class="slide">
-            <img src="/images/pexels-pixabay-247599.jpg" alt="Scenic View of Rice Paddy">
-        </div>
+            <!--Slide images-->
+            <div class="slide first">
+                <img src="images/pexels-blitzboy-1144176.jpg" alt="Aerial Photography of Water Beside Forest during Golden Hour">
+            </div>
+            <div class="slide">
+                <img src="images/pexels-bri-schneiter-28802-346529.jpg" alt="Calm Body of Lake Between Mountains">
+            </div>
+            <div class="slide">
+                <img src="images/pexels-pixabay-247599.jpg" alt="Scenic View of Rice Paddy">
+            </div>
 
-        <!--Automatic Navigation-->
-        <div class="navigation-auto">
-            <label for="slide1" class="auto-btn1"></label>
-            <label for="slide2" class="auto-btn2"></label>
-            <label for="slide3" class="auto-btn3"></label>
-        </div>
+            <!--Automatic Navigation-->
+            <div class="navigation-auto">
+                <label for="slide1" class="auto-btn1"></label>
+                <label for="slide2" class="auto-btn2"></label>
+                <label for="slide3" class="auto-btn3"></label>
+            </div>
+        </div> <!-- .slides -->
 
         <!--Manual Navigation-->
         <div class="navigation-manual">
@@ -39,8 +41,7 @@
             <label for="slide2" class="manual-btn2"></label>
             <label for="slide3" class="manual-btn3"></label>
         </div>
-</div>
-    <link rel="stylesheet" href="style.css" />
+    </div>
 </body>
 
 </html>
