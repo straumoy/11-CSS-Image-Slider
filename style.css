@@ -53,3 +53,13 @@
 #slide3:checked ~ .first {
     margin-left: -40%;
 }
+
+/*Automatic naviation (optional animation)*/
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    bottom: 10px;
+    opacity: 0;
+}
