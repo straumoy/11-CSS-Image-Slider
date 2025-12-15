@@ -12,3 +12,6 @@
     height: 100%;
     display: flex;
 }
+.slides input {
+    display: none;
+}
